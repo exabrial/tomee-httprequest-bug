@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<f:view
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	contentType="text/html"
+	encoding="UTF-8">
+	<html lang="en">
+		<body>
+			<h1>Test Page</h1>
+			<h5>Output:</h5>
+			<pre>
+				<h:outputText
+					id="contextPathOutputText"
+					value="#{indexPage.request.contextPath}" />
+			</pre>
+		</body>
+	</html>
+</f:view>

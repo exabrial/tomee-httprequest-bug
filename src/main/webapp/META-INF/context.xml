@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+
+	<Manager
+		className="com.github.exabrial.redexsm.ImprovedRedisSessionManager"
+		redisUrl="redis://localhost:6379"
+		keyPassword="thisIsATotallyNotSecurePassword"
+		keyPrefix="tomee-httprequest-bug"
+		ignorePattern="(?:^.*\/javax\.faces\.resource\/.*$)|(?:^.*\.(ico|svg|png|gif|jpg|jpeg|css|js|tts|otf|woff|woff2|eot)$)" />
+</Context>
